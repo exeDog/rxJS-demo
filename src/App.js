@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Rxjs from './Rxjs';
+import HttpObs from './HttpObs';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <Rxjs/>
+        <HttpObs />
       </header>
     </div>
   );
